@@ -1,0 +1,21 @@
+Szacowany czas
+30-120 minut
+
+Poziom trudności
+Średni/trudny
+
+Cele
+doskonalenie umiejętności wykorzystania Pythona do rozwiązywania trudniejszych i kompleksowych zagadnień,
+łączenie technik programistycznych w jedną całość - program składający się z wielu części.
+Scenariusz
+Twoim zadaniem jest napisanie prostego programu, który będzie symulować rozgrywkę w Kółko i krzyżyk pomiędzy użytkownikiem a komputerem. Aby ułatwić nieco to zadanie, zdecydowaliśmy się uprościć zasady gry. Oto nasze założenia:
+
+komputer (tzn. twój program) powinien uczestniczyć w rozgrywce używając znaków X;
+użytkownik/gracz (tzn. ty) powinien uczestniczyć w rozgrywce używając znaków O;
+pierwszy ruch należy do komputera, który zawsze rozpoczyna rozgrywkę stawiając X na środku tablicy;
+wszystkie pola są ponumerowane rząd po rzędzie rozpoczynając od liczby 1 (patrz obrazek poniżej)
+użytkownik wykonuje ruch wprowadzając numer pola, w którym chce postawić znak - liczba musi być nie tylko prawidłowa, ale i legalna, tzn. musi to być liczba całkowita, większa od 0 i mniejsza od 10, a także nie może to być liczba, która odnosi się do wcześniej zaznaczonego, a więc zajętego już, pola;
+program sprawdza czy rozgrywka dobiegła końca; są cztery możliwe scenariusze: 1) gra jest kontynuowana, 2) gra kończy się remisem, 3) gra kończy się zwycięstwem użytkownika, 4) gra kończy się zwycięstwem komputera;
+komputer wykonuje swój ruch, sprawdzenie stanu rozgrywki jest powtarzane;
+nie ma konieczności implementowania żadnej formy sztucznej inteligencji, tzn. dla potrzeb tego zadania wystarczy, aby komputer wykonywał swój ruch w sposób zupełnie przypadkowy, niekoniecznie dobry lub zły.
+Przykład rozgryw
